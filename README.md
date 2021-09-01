@@ -18,7 +18,7 @@ All tasks are <strong>stored in the navigator memory</strong> and they are still
 
 <h2> Please try yourself in:</h2><br>
 
-<a href = 'https://renato-dantas.github.io/todoList' target = '_blank'>Click here to access the application</a><br>
+<a href = 'https://renato-dantas.github.io/todoList/' target = '_blank'>Click here to access the application</a><br>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Renato-Js" height="70" width="80" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
