@@ -1,0 +1,33 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Righteous.ttf);
+}
+
+.input-form, .btn-form{
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px 3px black;
+    font-family: myFont;
+    font-weight: lighter;
+}
+
+.input-form{
+    padding: 0 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 50vw;
+    min-width: 200px;
+}
+
+.btn-form{
+    width: 7vw;
+    min-width: 45px;
+    background-color: chartreuse;
+    transition: all .3s;
+}
+
+.btn-form:hover{
+    background-color: red;
+    width: 60px;
+}

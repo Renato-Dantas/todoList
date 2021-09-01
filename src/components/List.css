@@ -1,0 +1,60 @@
+@font-face {
+    font-family: myFont;
+    src: url(../fonts/Righteous.ttf);
+}
+
+.list-item, .list-item-done, .btn-list{
+    border-radius: 7px;
+    font-family: myFont;
+    box-shadow: 3px 3px 3px black;
+}
+
+.list-item, .list-item-done{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 58vw;
+    min-width: 250px;
+    height: 40px;
+    list-style: none;
+    margin-bottom: 5px;
+    padding: 0 5px 0 10px;
+    border: 2px solid chartreuse;
+    color: #eee;
+    text-shadow: 1px 1px 1px black;
+}
+
+.list-item-done{
+    color: lightskyblue;
+}
+
+.btn-list{
+    width: 30px;
+    height: 20px;
+    border: none;
+    background-color: chartreuse;
+    color: black;
+    transition: all .3s;
+}
+
+.btn-list:hover{
+    background-color: red;
+    width: 40px;
+}
+
+.done, .undone{
+    border-radius: 50%;
+    background-color: #2f2f2f;
+    width: 20px;
+    height: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.undone{
+    border-color: red;
+}
+
+.done{
+    border-color: chartreuse;
+    background-color: greenyellow;
+}
